@@ -1,0 +1,17 @@
+package org.example.session12.enums;
+
+public enum EkycStatus {
+    INITIATED,
+    OTP_VERIFIED,
+    DOCUMENT_CAPTURED,
+    OCR_COMPLETED,
+    LIVENESS_PASSED,
+    FACE_MATCHED,
+    AML_CLEARED,
+    NFC_VERIFIED,
+    STP_APPROVED,
+    PENDING_MANUAL_REVIEW,
+    MANUALLY_APPROVED,
+    REJECTED,
+    FAILED
+}
